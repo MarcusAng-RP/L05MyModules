@@ -15,7 +15,8 @@
         android:layout_marginLeft="10sp"
         android:layout_marginTop="10sp"
         android:layout_marginRight="10sp"
-        android:text="TextView" />
+        android:text="TextView"
+        android:textSize="20sp" />
 
     <TextView
         android:id="@+id/tvModuleName"
@@ -23,7 +24,8 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="10sp"
         android:layout_marginRight="10sp"
-        android:text="TextView" />
+        android:text="TextView"
+        android:textSize="20sp" />
 
     <TextView
         android:id="@+id/tvAcdYr"
@@ -31,7 +33,8 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="10sp"
         android:layout_marginRight="10sp"
-        android:text="TextView" />
+        android:text="TextView"
+        android:textSize="20sp" />
 
     <TextView
         android:id="@+id/tvSem"
@@ -39,7 +42,8 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="10sp"
         android:layout_marginRight="10sp"
-        android:text="TextView" />
+        android:text="TextView"
+        android:textSize="20sp" />
 
     <TextView
         android:id="@+id/tvModCred"
@@ -47,20 +51,23 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="10sp"
         android:layout_marginRight="10sp"
-        android:text="TextView" />
+        android:text="TextView"
+        android:textSize="20sp" />
 
     <TextView
         android:id="@+id/tvVenue"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="10sp"
         android:layout_marginRight="10sp"
-        android:text="TextView" />
+        android:text="TextView"
+        android:textSize="20sp"
+        android:layout_marginLeft="10sp" />
 
     <Button
         android:id="@+id/btnback"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20sp"
+        android:layout_marginTop="35sp"
+        android:layout_marginBottom="50sp"
         android:text="BACK" />
 </LinearLayout>
